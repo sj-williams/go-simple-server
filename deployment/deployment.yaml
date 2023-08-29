@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-simple-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: go-simple-server
+  template:
+    metadata:
+      labels:
+        app: go-simple-server
+    spec:
+      containers:
+      - name: go-simple-server
+        image: #
