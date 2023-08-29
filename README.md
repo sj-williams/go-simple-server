@@ -1,5 +1,9 @@
 # go-simple-server
 
-Just setting up to check git tools setup and working
+Super simple go http server for network testing etc
 
-Added github actions for docker build, testing with new branch.
+## Use
+
+```bash
+curl -d "username=myuser&password=1234" http://localhost:8080/
+```
