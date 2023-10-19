@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: go-simple-server
-        image: #
+        image: sjwilliams80/go-simple-server:latest
