@@ -1,6 +1,6 @@
 # go-simple-server
 
-Super simple go http server for network testing etc
+Super simple go http server for network testing and anything else....
 
 ## Use
 
